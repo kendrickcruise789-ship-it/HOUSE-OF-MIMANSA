@@ -15,7 +15,7 @@ window.HOM_SHOPIFY = {
   storeDomain: "1p1uy2-3c.myshopify.com",
 
   // Public Storefront API access token (see note above)
-  storefrontAccessToken: "",
+  storefrontAccessToken: "b0c1508eca47495ed8ae1c265b551626",
 
   // Pinned Storefront API version. Supported by Shopify until ~April 2027.
   // Check https://shopify.dev/docs/api/storefront before changing.

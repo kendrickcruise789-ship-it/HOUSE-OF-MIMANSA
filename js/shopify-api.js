@@ -108,11 +108,11 @@
     "}";
 
   function createCart() {
-    return shopifyFetch(CART_FRAGMENT + "mutation CartCreate { cartCreate { cart { ...CartFields } cartUserErrors { message field } } }")
+    return shopifyFetch(CART_FRAGMENT + "mutation CartCreate { cartCreate { cart { ...CartFields } userErrors { message field } } }")
       .then(function (data) {
         var payload = data.cartCreate;
-        if (payload.cartUserErrors && payload.cartUserErrors.length) {
-          throw new Error(payload.cartUserErrors[0].message);
+        if (payload.userErrors && payload.userErrors.length) {
+          throw new Error(payload.userErrors[0].message);
         }
         return payload.cart;
       });
