@@ -1,0 +1,8 @@
+{
+  "name": "Ram Rang — Minimalist Artisanal Fashion",
+  "description": "Handcrafted contemporary women's apparel inspired by timeless heritage block prints, organic textiles, and effortless silhouettes with seamless payment checkout.",
+  "requestFramePermissions": [],
+  "majorCapabilities": [
+    "MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"
+  ]
+}
