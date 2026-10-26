@@ -12,7 +12,7 @@
  */
 window.HOM_SHOPIFY = {
   // e.g. "house-of-mimansa.myshopify.com" (Admin → Settings → Domains)
-  storeDomain: "",
+  storeDomain: "1p1uy2-3c.myshopify.com",
 
   // Public Storefront API access token (see note above)
   storefrontAccessToken: "",
