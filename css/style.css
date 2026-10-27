@@ -479,6 +479,7 @@ svg {
   .hero {
     grid-template-columns: 1fr;
     min-height: auto;
+    height: auto;
   }
 
   .hero-content {
@@ -528,8 +529,20 @@ svg {
   }
 
   .logo {
-    font-size: 13.5px;
-    letter-spacing: 0.2em;
+    font-size: 12px;
+    letter-spacing: 0.16em;
+  }
+
+  .bag-btn {
+    padding: 8px 11px;
+    gap: 6px;
+    font-size: 10px;
+    letter-spacing: 0.1em;
+  }
+
+  .bag-btn svg {
+    width: 15px;
+    height: 15px;
   }
 
   .header-actions .login-link {
